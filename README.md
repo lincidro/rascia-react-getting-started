@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## First Commit
+Se crea el componente Table.js y se agrega a App.js
+Renderizandolo en index.js
+
 ## Available Scripts
 
 In the project directory, you can run:
