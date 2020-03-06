@@ -20,6 +20,11 @@ const TableBody = props => {
         <tr key = {index}>
           <td>{row.name}</td>
           <td>{row.job}</td>
+          <td>
+            <button onClick={()=>props.removeCharacterIndex(index)}>
+              Borrar
+            </button>
+          </td>
         </tr>
       )
     }
@@ -30,20 +35,20 @@ const TableBody = props => {
   )
 }
 
-export class Table extends Component {
-  render() {
+const Table = props => {
 
-    const {characterData} = this.props;
+    const {characterData, removeCharacter} = props;
 
     return (
       <div>
         <table>
           <TableHeader/>
-          <TableBody characterDataBody = {characterData}/>
+          <TableBody 
+            characterDataBody = {characterData}
+            removeCharacterIndex = {removeCharacter}/>
         </table>
       </div>
     )
-  }
 }
 
 export default Table

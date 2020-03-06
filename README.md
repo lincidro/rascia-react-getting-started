@@ -7,3 +7,9 @@ Renderizandolo en index.js
 ## Second Commit
 Se crea una constante para tener la data y pasarla de
 App.js -> Table.js, encargado de procesar la data y mostrarla
+
+## Third Commit
+Se agrega el metodo para eliminar una fila
+
+## Tutorial:
+https://www.taniarascia.com/getting-started-with-react/
